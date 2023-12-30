@@ -1,0 +1,28 @@
+body{
+    
+    overflow-x:hidden;
+}
+.header{
+    background: linear-gradient(to right, #465ab8, #261360);
+    color:#FFF;
+}
+.searchBtn{
+    background: #261360;
+    color: #fff;
+}
+.searchBtn:hover{
+    background: #465ab8;
+    color:#fff
+}
+.currentTemp{
+    border:1px solid black;
+}
+.forecast > div{
+    background: #ececec;
+    color:#000;
+    width:19%;
+    border-radius: 0px;
+}
+.forecast > div p {
+    font-size:14px !important;
+}
